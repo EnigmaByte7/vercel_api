@@ -14,28 +14,28 @@ const fig = require('./fig');
 
 app.use(cors());
 
-app.get('/products/sofa', (req, res) => {
+app.get('api/products/sofa', (req, res) => {
   res.json(sofa);
 });
-app.get('/products/chair', (req, res) => {
+app.get('api/products/chair', (req, res) => {
   res.json(chair);
 });
-app.get('/products/bed', (req, res) => {
+app.get('api/products/bed', (req, res) => {
   res.json(bed);
 });
-app.get('/products/shelf', (req, res) => {
+app.get('api/products/shelf', (req, res) => {
   res.json(shelf);
 });
-app.get('/products/table', (req, res) => {
+app.get('api/products/table', (req, res) => {
   res.json(table);
 });
-app.get('/products/vase', (req, res) => {
+app.get('api/products/vase', (req, res) => {
   res.json(vase);
 });
-app.get('/products/clock', (req, res) => {
+app.get('api/products/clock', (req, res) => {
   res.json(clock);
 });
-app.get('/products/figurines', (req, res) => {
+app.get('api/products/figurines', (req, res) => {
   res.json(fig);
 });
 
