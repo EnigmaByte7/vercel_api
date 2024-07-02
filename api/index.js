@@ -14,6 +14,9 @@ const fig = require('./fig');
 
 app.use(cors());
 
+app.get('/',(req,res)=>{
+    res.send('Express on Vercel')
+})
 app.get('api/products/sofa', (req, res) => {
   res.json(sofa);
 });
